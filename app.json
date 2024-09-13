@@ -1,0 +1,35 @@
+{
+  "expo": {
+    "name": "cliente-app-coffeeshop",
+    "slug": "cliente-app-coffeeshop",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/carro.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/carro.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#EAD8C0"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/carro.png",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "web": {
+      "favicon": "./assets/carro.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "714dea9c-fcc5-438b-8445-d9497f069d89"
+      }
+    }
+  }
+}
