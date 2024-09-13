@@ -20,7 +20,7 @@ export default function SignUp({ navigation }) {
             // Actualizar el perfil del usuario con el nombre
             await updateProfile(user, { displayName: name });
             Alert.alert("Usuario registrado exitosamente");
-            navigation.navigate('Sesion'); // Ajusta el nombre de tu pantalla de inicio de sesión
+            navigation.navigate('Sesion'); 
         } catch (error) {
             Alert.alert('Error', error.message);
         }

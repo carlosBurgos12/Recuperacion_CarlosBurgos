@@ -78,14 +78,14 @@ const styles = StyleSheet.create({
         flex: 1,
         justifyContent: 'center',
         padding: 16,
-        backgroundColor: '#EAD8C0', // Fondo similar al de iniciar sesión
+        backgroundColor: '#EAD8C0', 
     },
     header: {
         fontSize: 24,
         marginBottom: 16,
         textAlign: 'center',
         fontWeight: 'bold',
-        color: '#322C2B', // Color del texto similar al de iniciar sesión
+        color: '#322C2B', 
     },
     input: {
         height: 40,
@@ -93,10 +93,10 @@ const styles = StyleSheet.create({
         borderBottomWidth: 1,
         marginBottom: 12,
         paddingLeft: 8,
-        backgroundColor: '#FFF', // Fondo blanco para los campos de entrada
+        backgroundColor: '#FFF', 
     },
     button: {
-        backgroundColor: '#322C2B', // Color de fondo del botón similar al de iniciar sesión
+        backgroundColor: '#322C2B', 
         padding: 10,
         borderRadius: 5,
     },

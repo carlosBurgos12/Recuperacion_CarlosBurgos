@@ -9,11 +9,11 @@ export default function HomeScreen({ navigation }) {
     const handleLogout = () => {
         signOut(auth)
             .then(() => {
-                // Sign-out successful.
+                
                 navigation.navigate('Sesion');
             })
             .catch((error) => {
-                // An error happened.
+                
                 console.error(error);
                 Alert.alert('Error', 'No se pudo cerrar sesión. Inténtalo de nuevo.');
             });

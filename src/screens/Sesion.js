@@ -10,7 +10,7 @@ export default function Sesion({ navigation }) {
         const auth = getAuth();
         try {
             await signInWithEmailAndPassword(auth, email, password);
-            // Navegar a la pantalla de inicio después del inicio de sesión exitoso
+            
             navigation.navigate('Home');
         } catch (error) {
             Alert.alert('Error', 'Error al iniciar sesión. Verifica tus credenciales.');
